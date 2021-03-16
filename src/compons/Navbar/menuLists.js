@@ -16,4 +16,9 @@ export const MenuLists = [
   path: '/skills'
 
 },
+{
+  title: 'Contact',
+  path: '/contact'
+
+},
 ]

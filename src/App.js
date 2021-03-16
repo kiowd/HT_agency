@@ -1,5 +1,5 @@
 import "./styles.css";
-import React, {useEffect} from 'react';
+import React from 'react';
 import PreLoader from "./compons/PreLoader";
 import Navbar from "./compons/Navbar";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 export default function App() {
 
   return (
-    <div className="App">
+    <div className="container">
       <Router>      
       <Navbar/>
       {/* <Switch>
