@@ -82,8 +82,9 @@ nav {
     padding: 45px 10px;
     padding-top: 200px;
     right: 0;
-    width: 95%;
-    margin-top: 450px;    
+    width:100%;
+    margin-top: 450px;  
+    box-sizing: border-box;  
         
   }
   .menu-lists li {
