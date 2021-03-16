@@ -24,6 +24,18 @@ nav {
   align-items: center;
 }
 .menu-lists li a {
+  background: 
+     linear-gradient(#fff 0 0) 
+     bottom /100% var(--d, 0px) no-repeat;
+  transition: 0.5s;
+}
+
+.menu-lists li a:hover {
+  --d: 20%;
+  transition: 0.3s, background-position 0.3s 0.2s
+}
+
+.menu-lists li a {
   text-decoration: none;
   color: #ead748;
   font-weight: 500;
@@ -31,12 +43,12 @@ nav {
   margin-left: 20px;
   font-size: 1.2rem;
 }
-.menu-lists li a:hover {
+/* .menu-lists li a:hover {
   border-bottom: 3.3px solid #000;
   border-top: 3.3px solid #000;
   color: #000;
   transition: all 0.3s ease-in;
-}
+} */
 .menu-lists li:first-child a {
   background-color: #0c6980;
   transition: all 0.3s ease-in-out;
@@ -99,6 +111,7 @@ nav {
     color: #fff;
     border-bottom: 1px solid #f6a079;
     border-top: 1px solid #f6a079;
+    --d: 0%;
   }
   .menu-lists.close {
     right: -100%;
