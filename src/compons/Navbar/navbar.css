@@ -51,6 +51,7 @@ nav {
 .menu-icon .fa-times {
   transform: rotate(360deg);
   transition: all 0.5s ease-in-out;
+  
 }
 .menu-icon .fa-bars {
   transform: rotate(180deg);
@@ -71,7 +72,7 @@ nav {
   .menu-icon {
     display: block;
     z-index: 1;
-    color: #c9182a;
+    color: #ffa186;
   }
   .menu-lists {
     flex-direction: column;
