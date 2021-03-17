@@ -13,7 +13,7 @@ const showMenu = () => setClicked(!clicked);
   const menuLists = MenuLists.map(({ title, path }, index) => {
     return (
       <li key="index">
-        <Link to="path">{title}</Link>
+        <Link to={path}>{title}</Link>
       </li>
     );
   });
