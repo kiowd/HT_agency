@@ -130,7 +130,9 @@ nav {
   }
   .menu-lists.close {
     right: -120%;
-    transition: all 1s ease;
+    /* width: 0; */
+    /* overflow: hidden; */
+    transition: all 1s linear;
     position: fixed;
   }
 }
