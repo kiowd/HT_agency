@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact_container">
         <h2 className="contact_title">contact us</h2>
         <form className="contact_form">
-          <input type="email" className="contact_input" />
+          <input type="email" className="contact_input" placeholder='example@email.com'/>
           <button type="submit" className="contact_submit">
             <FontAwesomeIcon icon={faPaperPlane}/> submit
           </button>
