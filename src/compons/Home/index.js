@@ -1,8 +1,10 @@
 import React from "react";
+import Contact from "../Contact";
 import "./home.css";
 
 const Home = () => {
   return (
+    <>
     <header className="header">
       <article className="banner">
         <h1 className="banner_title">
@@ -11,6 +13,8 @@ const Home = () => {
         </h1>
       </article>
     </header>
+    <Contact/>
+    </>
   );
 };
 
